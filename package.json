@@ -1,0 +1,35 @@
+{
+  "name": "@data-fair/processing-history-cog",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/data-fair/processing-history-cog.git"
+  },
+  "keywords": [
+    "data-fair-processings-plugin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/data-fair/processing-history-cog/issues"
+  },
+  "homepage": "https://github.com/data-fair/processing-history-cog#readme",
+  "devDependencies": {
+    "@data-fair/processings-test-utils": "^0.5.2",
+    "config": "^3.3.9",
+    "mocha": "^10.2.0",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.1.1",
+    "json-2-csv": "^4.0.0",
+    "path": "^0.12.7",
+    "util": "^0.12.5"
+  }
+}

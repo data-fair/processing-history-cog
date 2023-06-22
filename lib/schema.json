@@ -1,0 +1,16 @@
+[
+    {
+        "key": "COM_AV",
+        "type": "string",
+        "title": "Code ancien",
+        "ignoreDetection": true,
+        "description": "Code commune avant les différents changements"
+      },
+      {
+        "key": "COM_AP",
+        "type": "integer",
+        "title": "Code actuel",
+        "description": "Code commune après les différents changements, c'est le code actuel de la commune",
+        "x-refersTo": "http://rdf.insee.fr/def/geo#codeCommune"
+      }
+]
